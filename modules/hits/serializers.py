@@ -34,6 +34,7 @@ class HitViewSerializer(serializers.ModelSerializer):
     class Meta:
         model = Hits
         fields = ['id', 'assignee', 'desc', 'target', 'status', 'created_by']
+        read_only_fields = ['created_by']
     
     
 def is_lackeys(hitman_id, manager_id: int, is_boss: bool) -> bool:

@@ -22,9 +22,9 @@ from modules.hitman.views import get_tokens_for_user
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="TestBSE Flat",
+      title="Hitmen Challenge",
       default_version='v1',
-      description="Test BSE Flat",
+      description="Hitmen Challenge",
       contact=openapi.Contact(email="areg_4@hotmail.com"),
       license=openapi.License(name="BSD License"),
    ),
